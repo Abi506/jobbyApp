@@ -1,0 +1,61 @@
+.login-form {
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-card-container {
+  width: 350px;
+  font-weight: 'Roboto';
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 8px;
+}
+.jobby-logo-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.jobby-logo {
+  width: 100px;
+}
+.label-texts {
+  color: white;
+  margin-bottom: 10px;
+}
+.login-input-fields {
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+  padding: 12px;
+  border-color: #7e858e;
+  border-style: solid;
+  background: transparent;
+  color: #64748b;
+  outline: none;
+  margin-top: 10px;
+}
+.two-login-fields {
+  margin: 0px;
+  margin-top: 15px;
+}
+.login-button-container {
+  width: 300px;
+  display: flex;
+  margin-top: 15px;
+}
+.login-button-styles {
+  background-color: #6366f1;
+  font-family: 'Roboto';
+  cursor: pointer;
+  color: white;
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.error-message {
+  color: #ff0b37;
+}

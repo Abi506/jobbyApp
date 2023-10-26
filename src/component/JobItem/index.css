@@ -1,0 +1,20 @@
+.job-item-container {
+  background-color: #000000;
+  padding: 15px;
+}
+.loader-container-jobItem {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  background-color: #000000;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+@media all and (min-width: 576px) {
+  .job-item-container {
+    background-color: #000000;
+    padding: 60px;
+  }
+}

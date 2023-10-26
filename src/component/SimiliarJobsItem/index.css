@@ -1,0 +1,38 @@
+.similar-jobs-heading {
+  color: white;
+}
+.similar-jobs-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.upper-part-similar-jobs {
+  color: white;
+  display: flex;
+}
+.about-similar-jobs-detail-container {
+  color: white;
+  margin-bottom: 20px;
+  background-color: #202020;
+  padding: 11px;
+  border-radius: 5px;
+}
+@media all and (min-width: 576px) {
+  .similar-jobs-list {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .about-similar-jobs-detail-container {
+    color: white;
+    margin-bottom: 20px;
+    background-color: #202020;
+    padding: 11px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 10px;
+  }
+}
